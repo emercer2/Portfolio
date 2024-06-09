@@ -12,16 +12,9 @@ function App() {
         <img src={headshotOutline1} className="headshot-outline-1" alt="logo" />
         <img src={headshotOutline2} className="headshot-outline-2" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my first portfolio ever!
+          Also my first time using react. That is some pretty exciting stuff right there. Soon I will hav different projects here to show off the cool things I am capable of.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
