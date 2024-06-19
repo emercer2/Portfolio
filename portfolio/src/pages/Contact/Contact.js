@@ -36,7 +36,7 @@ function Contact(){
   return (
     <div>
       <div className={styles.backButtonRow}>
-        <FaArrowLeft onClick={()=>navigate("/")}/>
+        <FaArrowLeft onClick={()=>navigate("/Portfolio/")}/>
       </div>
       <div className='App'>
         <h1>Contact Me</h1>

@@ -20,7 +20,7 @@ function Home(){
         </p>
       </div>
       <div>
-        <button onClick={()=>navigate("/contact")} className='basicButton'>Contact Me</button>
+        <button onClick={()=>navigate("/Portfolio/contact")} className='basicButton'>Contact Me</button>
         <button disabled className='basicButton'>Portfolio Projects</button>
       </div>
     </div>
