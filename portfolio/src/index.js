@@ -6,6 +6,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
+import Projects from "./pages/Projects/Projects";
+import Art from "./pages/Art/Art";
+import Recipies from "./pages/Recipies/Recipies";
+import Friends from "./pages/Friends/Friends";
+import Motorways from "./pages/Motorways/Motorways";
 import NoPage from "./pages/NoPage";
 
 export default function App() {
@@ -14,7 +19,12 @@ export default function App() {
       <Routes>
         <Route path="/Portfolio/">
           <Route index element={<Home />} />
-          <Route path="/Portfolio/contact" element={<Contact />} />
+          <Route path="/Portfolio/Contact" element={<Contact />} />
+          <Route path="/Portfolio/Projects" element={<Projects />} />
+          <Route path="/Portfolio/Art" element={<Art />} />
+          <Route path="/Portfolio/Recipies" element={<Recipies />} />
+          <Route path="/Portfolio/Friends" element={<Friends />} />
+          <Route path="/Portfolio/Motorways" element={<Motorways />} />
           <Route path="/Portfolio/*" element={<NoPage />} />
         </Route>
       </Routes>

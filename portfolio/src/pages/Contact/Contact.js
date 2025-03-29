@@ -35,7 +35,7 @@ function Contact(){
 
   return (
     <div>
-      <div className={styles.backButtonRow}>
+      <div className='backButtonRow'>
         <FaArrowLeft onClick={()=>navigate("/Portfolio/")}/>
       </div>
       <div className='App'>
@@ -53,7 +53,7 @@ function Contact(){
           <label>
             Subject:
           </label>
-          <input 
+          <input
             type="text" 
             value={subject}
             onChange={(e) => setSubject(e.target.value)}

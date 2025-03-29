@@ -1,13 +1,3 @@
-.backButtonRow{
-    text-align: center;
-    background-color: #282c34;
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    font-size: calc(10px + 2vmin);
-    color: white;
-}
-
 form{
     width: 100%;
     justify-content: left;

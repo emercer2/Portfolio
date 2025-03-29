@@ -1,0 +1,26 @@
+.card{
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #3e4961;
+    margin: 10px;
+    height: fit-content;
+}
+
+.cardImg{
+    float: right;
+}
+.cardText{
+    text-align: left;
+    h2{
+        font-size: larger;
+    }
+    p{
+        font-size: large;
+    }
+}
+
+.cardList{
+    padding: 30px;
+    height: fit-content;
+}
+

@@ -1,6 +1,6 @@
-import headshot from '../media/headshot.png';
-import headshotOutline1 from '../media/headshotOutline1.png';
-import headshotOutline2 from '../media/headshotOutline2.png';
+import headshot from '../../media/headshot.png';
+import headshotOutline1 from '../../media/headshotOutline1.png';
+import headshotOutline2 from '../../media/headshotOutline2.png';
 import styles from './Home.module.css'; 
 //import '../../index.css';
 import { useNavigate } from 'react-router-dom';
@@ -20,8 +20,8 @@ function Home(){
         </p>
       </div>
       <div>
-        <button onClick={()=>navigate("/Portfolio/contact")} className='basicButton'>Contact Me</button>
-        <button disabled className='basicButton'>Portfolio Projects</button>
+        <button onClick={()=>navigate("/Portfolio/Contact")} className='basicButton'>Contact Me</button>
+        <button onClick={()=>navigate("/Portfolio/Projects")} className='basicButton'>Portfolio Projects</button>
       </div>
     </div>
   );

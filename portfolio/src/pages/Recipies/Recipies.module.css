@@ -1,0 +1,59 @@
+.row{
+  display: grid;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  width: 900px;
+  min-height: 250px;
+
+  .introText{
+    grid-column: 2;
+    grid-row: 1;
+    width: 625px;
+    padding: 5px;
+  }
+  
+  .headshot{
+    grid-column: 1;
+    grid-row: 1;
+    height: 250px;
+    pointer-events: none;
+  }
+  
+  .headshotOutline1, .headshotOutline2 {
+    grid-column: 1;
+    grid-row: 1;
+    height: 250px;
+    pointer-events: none;
+    position: absolute;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .headshotOutline1 {
+      animation: spinL infinite 60s linear;
+    }
+  
+    .headshotOutline2 {
+      animation: spinR infinite 30s linear;
+    }
+  }
+}
+
+@keyframes spinL {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinR {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
